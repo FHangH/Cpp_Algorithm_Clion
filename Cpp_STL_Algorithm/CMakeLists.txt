@@ -1,0 +1,40 @@
+cmake_minimum_required(VERSION 3.20)
+project(Cpp_STL_Algorithm)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(.)
+include_directories(.idea)
+
+# STL_Algorithm_Foreach
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_Foreach/STL_Algorithm_Foreach.cpp)
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_Foreach/STL_Algorithm_Transform.cpp)
+
+# STL_Algorithm_Find
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_Find/STL_Algorithm_Find.cpp)
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_Find/STL_Algorithm_FindIF.cpp)
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_Find/STL_Algorithm_Adjacent_Find.cpp)
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_Find/STL_Algorithm_Binary_Search.cpp)
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_Find/STL_Algorithm_Count.cpp)
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_Find/STL_Algorithm_Count_IF.cpp)
+
+# STL_Algorithm_Sort
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_Sort/STL_Algorithm_Sort.cpp)
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_Sort/STL_Algorithm_Random_Shuffle.cpp)
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_Sort/STL_Algorithm_Merge.cpp)
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_Sort/STL_Algorithm_Reverse.cpp)
+
+# STL_Algorithm_CopyAndSwap
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_CopyAndSwap/STL_Algorithm_Copy.cpp)
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_CopyAndSwap/STL_Algorithm_Replace.cpp)
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_CopyAndSwap/STL_Algorithm_Replace_IF.cpp)
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_CopyAndSwap/STL_Algorithm_Swap.cpp)
+
+# STL_Algorithm_Numeric
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_Numeric/STL_Algorithm_Numeric.cpp)
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_Numeric/STL_Algorithm_Fill.cpp)
+
+# STL_Algorithm_Set
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_Set/STL_Algorithm_Set_Intersection.cpp)
+#add_executable(Cpp_STL_Algorithm STL_Algorithm_Set/STL_Algorithm_Set_Union.cpp)
+add_executable(Cpp_STL_Algorithm STL_Algorithm_Set/STL_Algorithm_Set_Difference.cpp)
